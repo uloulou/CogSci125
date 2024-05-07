@@ -4,21 +4,21 @@ import {loadFull} from "tsparticles";
 import logo from "./logo.svg";
 import "./App.css";
 import particlesOptions from "./particles.json";
+import React, { useCallback } from "react";
 
 function App() {
-    const [init, setInit] = useState(false);
-
-    useEffect(() => {
-        if (init) {
-            return;
-        }
-
-        initParticlesEngine(async (engine) => {
-            await loadFull(engine);
-        }).then(() => {
-            setInit(true);
-        });
-    }, []);
+    
+    const App = () => {
+        // Here we initialize the tsParticle engine
+            const particlesInit = useCallback(async (engine) => {
+                await loadFull(engine);
+            }, []);
+        // and we use this to handle the load state 
+            const particlesLoaded = useCallback(async (container) => {
+                await console.log(container);
+            }, []);
+        
+        };
 
     return (
         <div className="App">
