@@ -1,10 +1,13 @@
-import React, {useEffect, useState} from "react";
+/*import React, {useEffect, useState} from "react";
 import Particles, {initParticlesEngine} from "@tsparticles/react";
 import {loadFull} from "tsparticles";
 import logo from "./logo.svg";
 import "./App.css";
 import particlesOptions from "./particles.json";
-import { useCallback } from "react";
+import { useCallback } from "react";*/
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import "./App.css";
 
 
 export default function App() {
