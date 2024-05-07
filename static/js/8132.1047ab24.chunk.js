@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkparticles=self.webpackChunkparticles||[]).push([[8132],{8132:(e,s,n)=>{async function a(e){let s=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];const{AbsorbersPlugin:a}=await Promise.all([n.e(4409),n.e(888)]).then(n.bind(n,888));await e.addPlugin(new a,s)}n.d(s,{loadAbsorbersPlugin:()=>a})}}]);
-//# sourceMappingURL=8132.1047ab24.chunk.js.map
