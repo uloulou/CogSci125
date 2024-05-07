@@ -1,5 +1,5 @@
-/*import React, {useEffect, useState} from "react";
-import Particles, {initParticlesEngine} from "@tsparticles/react";
+import React, {useEffect, useState} from "react";
+/*import Particles, {initParticlesEngine} from "@tsparticles/react";
 import {loadFull} from "tsparticles";
 import logo from "./logo.svg";
 import "./App.css";
