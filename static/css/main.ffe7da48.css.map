@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.ffe7da48.css","mappings":"AAAA,KACI,sBAAuB,CACvB,iBACF,CAEA,kBACE,oBAAqB,CAErB,YAAa,CADb,WAEF","sources":["App.css"],"sourcesContent":[".App {\n    font-family: sans-serif;\n    text-align: center;\n  }\n  \n  .particle-wrapper {\n    border: 1px solid red;\n    width: 100px;\n    height: 100px;\n  }\n  "],"names":[],"sourceRoot":""}
